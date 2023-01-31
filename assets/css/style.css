@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+body {
+    font-family: "Antic-Slab", sans-serif;
+    text-align: center;
+    background-image: url("https://images5.alphacoders.com/423/thumb-1920-423022.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;    
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    background: linear-gradient(35deg,rgba(184, 158, 12, 0.226),#e68b29c5,#c06a1956);
+    border-radius:4px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 100px;
+    background: linear-gradient(-65deg,rgba(182, 156, 10, 0.623),#9e4e03);
+    border-radius: 4px;
+  }
+  
+  .alura-logo {
+    width: 30px;   
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+
+  input {
+    min-width: 250px;
+    max-width:1200px;
+    margin: 12px ;
+    padding: 6px;
+    border:none;
+    border-radius: 5px;
+    background: #e6e0e0;
+    box-shadow: 1px 2px 3px 3px #dd9716ad;
+  }
+  
+  label {
+    color: rgb(240, 232, 232);
+    font-size: 25px;
+    font-weight: 530;
+    background: linear-gradient(-65deg,rgba(185, 122, 4, 0.589),#a75305);
+    border-radius: 4px;
+  }
+  
+  button {
+    min-width: 110px;
+    max-width:1200px;
+    margin-top: 12px;
+    font-weight: 550;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background: #e6e0e0;
+    border: solid 1px #80753ce1;
+  }
+  
+  #valorConvertido{
+    width: 200px;
+    margin-left: 415px;
+    color: aliceblue;
+    border-radius: 4px;
+    background: linear-gradient(35deg,rgba(151, 119, 16, 0.884),#e68b29e8,#c06a19b2);
+  }
